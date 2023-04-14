@@ -1,0 +1,21 @@
+name: mapsindoors_platform_interface
+description: A common platform interface for the mapsindoors plugin.
+version: 1.0.0
+# TODO: Change repo URL to whatever we decide on
+repository: https://github.com/MapsPeople/MapsIndoors-sdk-flutter
+homepage: https://www.mapsindoors.com/
+documentation: https://app.mapsindoors.com/mapsindoors/reference/flutter/1.0.0/index.html
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

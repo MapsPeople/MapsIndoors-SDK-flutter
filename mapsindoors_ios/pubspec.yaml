@@ -1,0 +1,26 @@
+name: mapsindoors_ios
+description: iOS implementation of the mapsindoors plugin
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+flutter:
+  plugin:
+    implements: mapsindoors
+    platforms:
+      ios:
+        pluginClass: MapsIndoorsPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mapsindoors_platform_interface:
+    path: ../mapsindoors_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.0

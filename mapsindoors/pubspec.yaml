@@ -1,0 +1,35 @@
+name: mapsindoors
+description: A MapsIndoors flutter plugin
+version: 1.0.0-beta.1
+# TODO: Change repo URL to whatever we decide on
+repository: https://github.com/MapsPeople/MapsIndoors-sdk-flutter
+homepage: https://www.mapsindoors.com/
+documentation: https://app.mapsindoors.com/mapsindoors/reference/flutter/1.0.0/index.html
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: mapsindoors_android
+      ios:
+        default_package: mapsindoors_ios
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mapsindoors_android:
+    path: ../mapsindoors_android
+  mapsindoors_ios:
+    path: ../mapsindoors_ios
+  mapsindoors_platform_interface:
+    path: ../mapsindoors_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.0
