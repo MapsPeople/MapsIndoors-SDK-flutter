@@ -17,6 +17,7 @@ Use this plugin to:
 - Perform real-time wayfinding.
 - See location live updates.
 ​
+This plugin is based on the MapsIndoors V4 SDK for android and iOS. At the moment only Google Maps is supported.
 
 ## Getting Started
 
