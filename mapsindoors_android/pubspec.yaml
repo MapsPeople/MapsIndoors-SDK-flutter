@@ -1,6 +1,6 @@
 name: mapsindoors_android
 description: Android implementation of the mapsindoors plugin
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/MapsPeople/MapsIndoors-sdk-flutter
 homepage: https://www.mapsindoors.com/
 documentation: https://app.mapsindoors.com/mapsindoors/reference/flutter/1.0.0/index.html

@@ -71,7 +71,7 @@ class MapsindoorsPlugin : FlutterPlugin {
                     return
                 }
                 MapsIndoors.load(context, key) { error ->
-                    success(if (error == null) null else MPError.fromMIError(error))
+                    success(if (error == null) null else gson.toJson(MPError.fromMIError(error)))
                 }
             }
             "locationDisplayRuleExists" -> {
