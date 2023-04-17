@@ -102,14 +102,14 @@ public class MapsIndoorsMethodChannel: NSObject {
                 result(FlutterError(code: "Could not initialise MapsIndoors", message: "MIN_initialize", details: nil))
                 return
             }
-            
+
             Task {
                 do {
                     try await MPMapsIndoors.shared.load(apiKey: apiKey)
                     result(nil)
                 }
                 catch {
-                    result(FlutterError(code: "Could not initialise MapsIndoors", message: "MIN_initialize:  " + error.localizedDescription, details: apiKey))
+                    result("{\"code\": 1000,\"message\": " + "\"" + error.localizedDescription + "\"" + "}")
                 }
             }
         }

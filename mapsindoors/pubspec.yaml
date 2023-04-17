@@ -1,6 +1,6 @@
 name: mapsindoors
 description: A MapsIndoors flutter plugin
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/MapsPeople/MapsIndoors-sdk-flutter
 homepage: https://www.mapsindoors.com/
 documentation: https://app.mapsindoors.com/mapsindoors/reference/flutter/1.0.0/index.html
@@ -21,7 +21,7 @@ dependencies:
   flutter:
     sdk: flutter
   mapsindoors_android: ^1.0.1
-  mapsindoors_ios: ^1.0.0
+  mapsindoors_ios: ^1.0.1
   mapsindoors_platform_interface: ^1.0.0
 
 
