@@ -20,7 +20,8 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  mapsindoors_platform_interface: ^1.0.0
+  mapsindoors_platform_interface: #^1.0.0
+    path: ../mapsindoors_platform_interface
 
 dev_dependencies:
   flutter_test:
